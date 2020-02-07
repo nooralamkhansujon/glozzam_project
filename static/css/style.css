@@ -1,0 +1,148 @@
+.navbar{
+  background:#000;
+}
+.navbar .nav-item{
+  padding-left:1em !important;
+}
+
+.navbar .nav-item .nav-link{
+  text-transform: uppercase;
+}
+
+.carousel-item {
+  height:450px;
+}
+
+.carousel-img-1{
+  background-image: url('../images/5.jpg');
+  background-size:cover;
+}
+.carousel-img-2{
+  background-image: url('../images/6.jpg');
+  background-size:cover;
+}
+.carousel-img-3{
+  background-image: url('../images/7.jpg');
+  background-size:cover;
+}
+#homeicon .fa{
+   font-size:50px;
+}
+#getStarted{
+  background-image: url('../images/item4.png');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  min-height:250px;
+  position:relative;
+
+}
+#getStarted .dark-overlay{
+    background:rgb(0,0,0,0.7);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+#homeInfo .col-md-6 img{
+  min-height:100%;
+  width:100%;
+}
+#home-video {
+  background-image: url('../images/item7.png');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  min-height:250px;
+  position:relative;
+}
+
+#home-video .dark-overlay{
+  background:rgb(0,0,0,0.7);
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#home-video .dark-overlay .fa{
+  font-size:50px;
+}
+
+#gallary  img{
+    min-height:250px;
+}
+
+#copyright{
+  background:#000;
+
+}
+
+#page-header{
+  background:url('../pexels/4.jpeg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  height:200px;
+}
+#about-info img{
+  height:350px;
+  width:350px;
+}
+
+
+@media (max-width:767px) {
+      .navbar .nav-item{
+        padding-left:0em !important;
+      }
+      #getStarted{
+        min-height:350px;
+      }
+
+}
+
+ @media (max-width:540px) {
+   .carousel-item    .carousel-caption .display-4{
+         font-size:2.4em;
+   }
+   .carousel-item    .carousel-caption p{
+     font-size:18px;
+   }
+   #getStarted{
+     min-height:380px;
+   }
+   #getStarted h1{
+       font-size:25px;
+   }
+   #getStarted p{
+      font-size:18px;
+   }
+   #homeInfo .col-md-6 p{
+     font-size:18px;
+   }
+   #homeInfo .col-md-6 h3{
+      font-size:25px;
+   }
+   #about-info img{
+     height:250px;
+     width: 250px;
+   }
+}
+
+#iconboxes .fa{
+   font-size:50px;
+   margin-bottom:20px;
+}
+
+
+
+@media (max-width:350px) {
+   .carousel-item    .carousel-caption .display-4{
+         font-size:30px;
+   }
+   .carousel-item    .carousel-caption p{
+     font-size:15px;
+   }
+}
